@@ -3,3 +3,5 @@ n_pca=100, mds_solver='sgd', knn_dist='euclidean', mds_dist='euclidean', mds='me
  random_state=None, verbose=1, potential_method=None, alpha_decay=None, njobs=None, k=None, a=None, **kwargs)
 
 参数：
+	n_components (int, optional, default: 2)   将嵌入数据的维度数
+	knn (int, optional, default: 5) –                  number of nearest neighbors on which to build kernel
